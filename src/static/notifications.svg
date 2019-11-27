@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="20px" viewBox="0 0 16 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>Icons / notifications</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Layout-/-Header" transform="translate(-1186.000000, -37.000000)">
+            <g id="::-notifiation">
+                <g transform="translate(1182.000000, 30.000000)">
+                    <g id="Icons-/-notifications" transform="translate(0.000000, 5.000000)">
+                        <rect id="bounding-box-24" fill="#FFFFFF" fill-rule="evenodd" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                        <path d="M6,15 L6,10 C6,7.02700371 8.16228666,4.55903653 11,4.08295844 L11,2 L13,2 L13,4.08295844 C15.8377133,4.55903653 18,7.02700371 18,10 L18,15 L20,15 L20,17 L4,17 L4,15 L6,15 Z M8,15 L16,15 L16,10 C16,7.790861 14.209139,6 12,6 C9.790861,6 8,7.790861 8,10 L8,15 Z M14,18 L16,18 C16,20.209139 14.209139,22 12,22 C9.790861,22 8,20.209139 8,18 L10,18 C10,19.1045695 10.8954305,20 12,20 C13.1045695,20 14,19.1045695 14,18 Z M14,18 L16,18 C16,20.209139 14.209139,22 12,22 C9.790861,22 8,20.209139 8,18 L10,18 C10,19.1045695 10.8954305,20 12,20 C13.1045695,20 14,19.1045695 14,18 Z" id="notifications" fill="#2B2D33" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
