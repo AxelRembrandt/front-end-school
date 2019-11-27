@@ -1,0 +1,22 @@
+.content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #fbfbfb;
+}
+
+.left {
+  position: relative;
+  width: 20%;
+}
+
+.right {
+  position: relative;
+  width: 20%;
+}
+
+.central {
+  position: relative;
+  width: 60%;
+
+}

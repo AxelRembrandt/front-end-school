@@ -7,12 +7,13 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .notification {
   width: 29px;
   height: 29px;
-  background: url(/src/static/notifications.svg) no-repeat left bottom;
+  background: url(/src/static/img/notifications.svg) no-repeat left bottom;
   cursor: pointer;
 }
 
@@ -28,7 +29,6 @@
 }
 
 .account {
-  width: 200px;
   margin: 0 50px 0 20px;
 }
 
@@ -45,7 +45,7 @@
 
 .name:before {
   content: "";
-  background: url(/src/static/arrow.svg) no-repeat left top;
+  background: url(/src/static/img/arrow.svg) no-repeat left top;
   background-size: contain;
   opacity: 0.5;
   height: 16px;
