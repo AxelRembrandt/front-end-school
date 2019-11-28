@@ -1,5 +1,9 @@
-.modal {
+#registration {
   display: none;
+}
+
+.modal {
+  display: block;
   z-index: 1000;
   position: fixed;
   top: 0;
@@ -30,7 +34,7 @@
 }
 
 .modal-wrapper {
-  display: none;
+  display: block;
   z-index: 900;
   position: fixed;
   top: 0;
