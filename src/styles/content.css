@@ -1,22 +1,25 @@
-.content {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background-color: #fbfbfb;
+body {
+display: grid;
+grid-template-areas:
+"header header header"
+"left content right";
+grid-template-rows: 88px 1fr;
+grid-template-columns: 10% 1fr 10%;
+grid-row-gap: 10px;
+grid-column-gap: 10px;
+height: 100vh;
+margin: 0;
+background-color: #fbfbfb;
 }
 
-.left {
-  position: relative;
-  width: 20%;
+#content {
+  grid-area: content;
 }
 
-.right {
-  position: relative;
-  width: 20%;
+#left {
+  grid-area: left;
 }
 
-.central {
-  position: relative;
-  width: 60%;
-
+#right {
+  grid-area: right;
 }
