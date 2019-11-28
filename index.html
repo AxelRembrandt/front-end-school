@@ -40,7 +40,7 @@
                 <h2 class="card-header">Мероприятия</h2>
             </div>
             <div class="tab">
-                <input type="radio" id="tab1" name="tab-group">
+                <input type="radio" id="tab1" name="tab-group" checked="checked">
                 <label for="tab1" class="tab-title">Ближайшие</label> 
                 <section class="tab-content">
                   <table class="events">
@@ -150,6 +150,32 @@
           </div>
         </div>
       </div>
+      <div id="new-event" class="modal-wrapper">
+          <div class="modal">
+            <h2>Создать мероприятие</h2>
+            <div class="input-group">
+              <label>Введите название
+                  <input type="text" class="name">
+              </label>
+              <label>Выберите дату
+                  <input type="date">
+              </label>
+              <label>Выберите время
+                  <input type="time">
+              </label>
+              <label>Выберите место
+                  <input type="search">
+              </label>
+              <label>Введите количество участников
+                  <input type="number">
+              </label>
+            </div>
+            <div class="actions">
+                <button class="accent-yellow">Создать</button>
+                <button class="secondary-green">Отменить</button>
+            </div>
+          </div>
+        </div>
       </div>
       <div id="right"></div>
   </body>
