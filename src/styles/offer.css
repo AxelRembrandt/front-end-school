@@ -63,7 +63,7 @@
   margin-right: 24px;
 }
 
-button.accent {
+button.accent-green {
   background: rgb(3, 112, 128);
   border-radius: 4px;
   border-color: rgb(3, 112, 128);
@@ -76,12 +76,12 @@ button.accent {
   text-align: center;
 }
 
-button.secondary {
+button.secondary-green {
   border-radius: 4px;
   border: 2px solid rgb(0, 68, 84);
   height: 40px;
   width: 145px;
-  background-color: rgb(194, 239, 226);
+  background-color: transparent;
   color: rgb(0, 68, 84);
   font-family: SFProDisplay-Semibold;
   font-size: 14px;

@@ -9,6 +9,7 @@
     <link href="/src/styles/content.css" type="stylesheet" />
     <link href="/src/styles/offer.css" type="stylesheet" />
     <link href="/src/styles/events.css" type="stylesheet" />
+    <link href="/src/styles/modal.css" type="stylesheet" />
   </head>
 
   <body>
@@ -28,8 +29,8 @@
             <p>В этом месяце Вы зарегистрировались на 3 мероприятия. У нас появилось еще 2 новых мероприятия.</p>
             <p>Также у Вас есть права для создания собственного мероприятия.</p>
             <div class="actions">
-              <button class="accent">Создать</button>
-              <button class="secondary">Скрыть баннер</button>
+              <button class="accent-green">Создать</button>
+              <button class="secondary-green">Скрыть баннер</button>
             </div>
           </div>
         </div>
@@ -128,6 +129,27 @@
             </div>
           </div>
         </div>
+      <div class="modal-wrapper">
+        <div class="modal">
+          <h2>Регистрация на мероприятие</h2>
+          <p>Уважаемый Проскурин Игорь Андреевич, Вы хотите зарегистрироваться на данное мероприятие.</p>
+          <div class="radiobutton-group">
+            <label>Как вы будете присутствовать на мероприятии?</label>
+            <label class="radiobutton">Очно
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+            <label class="radiobutton">Онлайн по webex
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+          </div>
+          <div class="actions">
+              <button class="accent-yellow">Я пойду!</button>
+              <button class="secondary-green">Отменить</button>
+          </div>
+        </div>
+      </div>
       </div>
       <div id="right"></div>
   </body>

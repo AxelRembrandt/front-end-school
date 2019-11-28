@@ -6,6 +6,7 @@
   justify-content: flex-end;
   align-items: center;
   grid-area: header;
+  z-index: 5000;
 }
 
 .notification {
