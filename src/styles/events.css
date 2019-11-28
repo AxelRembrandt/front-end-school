@@ -2,11 +2,12 @@
   background: rgb(255, 255, 255);
   border-radius: 8px;
   box-shadow: 0px 2px 12px 0px rgba(43, 45, 51, 0.04);
-  height: 458px;
+  height: 400px;
   /*width: 1024px;*/
   display: block;
   position: relative;
   margin: 40px;
+  padding: 32px;
 }
 
 .card-header {
@@ -16,6 +17,7 @@
   font-weight: normal;
   height: 26px;
   width: 134px;
+  margin-right: 48px;
 }
 
 .tabs {
@@ -23,13 +25,18 @@
  }
 
  .tab, .tab-title {
-  display: inline-block; 
+  display: inline-block;
  }
 
  .tab input[type="radio"] { display: none; }
 
  .tab-title {
   padding: 5px 10px;
+  color: rgb(128, 129, 133);
+  font-family: SFProDisplay-Semibold;
+  font-size: 14px;
+  font-weight: 600;
+  height: 36px;
  }
 
  .tab-content {
@@ -43,12 +50,105 @@
  .tab :checked + .tab-title {
   position: relative;
   background: rgb(255, 255, 255);
-  top: 1px; /* Сдвигаем вниз */
   z-index: 1; /* Отображаем поверх содержимого */
+  color: rgb(0, 68, 84);
+  font-family: SFProDisplay-Semibold;
+  font-size: 14px;
+  font-weight: 600;
+ }
+
+ .tab :checked + .tab-title:after {
+  content: "";
+  background: rgb(254, 230, 0);
+  border-radius: 0px;
+  height: 4px;
+  width: 25px;
+  display: block;
+  position: absolute;
+  bottom: 0px;
  }
 
  .tab :checked ~ .tab-content {
   display: block; /* Показываем активную вкладку */
  }
 
- 
+.grid-container {
+  display: grid;
+  grid-template-columns: [name] 280px [date] 150px [place] 150px [all-seats] 50px [seats-left] 50px [check-in] 100px;
+  grid-template-rows: 48px;
+}
+
+table.events {
+  width: 100%;
+}
+
+table.events tr {
+  height: 48px;
+}
+
+table.events tr:hover {
+  background-color: rgb(244, 244, 244);
+  cursor: pointer;
+}
+
+/* Исключение для хэдэра таблицы */
+table.events tr.table-header:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: default;
+}
+
+table.events th {
+  color: rgb(128, 129, 133);
+  font-family: SFProText-Medium;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  line-height: 16px;
+  vertical-align: middle;
+  text-align: right;
+  padding: 10px 8px;
+}
+
+table.events th.first {
+  text-align: left;
+}
+
+table.events td {
+  color: rgb(43, 45, 51);
+  font-family: SFProText-Regular;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  vertical-align: middle;
+  text-align: right;
+  padding: 10px 8px;
+}
+
+table.events td.first {
+  border-radius: 4px 0 0 4px;
+  text-align: left;
+}
+
+table.events td.last {
+  border-radius: 0 4px 4px 0;
+  text-align: center;
+  padding: 10px 8px 10px 50px;
+}
+
+table.events td span.check-in {
+  color: rgb(3, 112, 128);
+  font-family: SFProDisplay-Regular;
+  letter-spacing: 0px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid rgb(179, 212, 216);
+}
+
+table.events td span.check {
+  color: rgb(128, 129, 133);
+  font-family: SFProText-Medium;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  line-height: 16px;
+}
